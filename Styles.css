@@ -1,0 +1,34 @@
+/* General Button Styling */
+.button {
+    -fx-background-radius: 10;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-background-color: #e080aa;
+    -fx-text-fill: black;
+    -fx-padding: 8 16 8 16;
+}
+
+.button:hover {
+    -fx-background-color: #ffb6c1;
+}
+
+.button:pressed {
+    -fx-background-color: #d46a94;
+}
+
+/* Toggle Sidebar Button */
+#toggle-sidebar {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+#toggle-sidebar:hover {
+    -fx-text-fill: #dddddd;
+}
+
+/* App Title Button */
+.button:disabled {
+    -fx-opacity: 1.0;
+}
